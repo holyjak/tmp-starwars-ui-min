@@ -1,0 +1,32 @@
+{
+  "name": "starwars-ui-min",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html"
+  },
+  "license": "MIT",
+  "browserslist": [
+    "last 1 Firefox version"
+  ],
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "lodash": "^4.17.20",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "swr": "^0.3.9"
+  },
+  "devDependencies": {
+    "babel-preset-nano-react-app": "^0.1.0",
+    "eslint": "^7.13.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "parcel": "^2.0.0-beta.1"
+  },
+  "babel": {
+    "presets": [
+      "nano-react-app"
+    ]
+  }
+}
